@@ -1,0 +1,17 @@
+{
+    "extends": "./node_modules/phaser-ce/typescript/tslint.json",
+    "rules": {
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "whitespace": [
+        	false
+        ],
+        "semicolon": [
+        	false
+        ],
+        "no-trailing-whitespace": [false, "ignore-comments"],
+        "indent": [false, "spaces"]
+    }
+}
